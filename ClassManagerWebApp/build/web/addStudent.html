@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>Add Student Page</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h1>Add Student</h1>
+        <p>
+            Please enter the details of the student below:
+        </p>
+        <form action="AddStudentServlet.do" method="POST">
+            <table>
+                <tr>
+                    <td>Name:</td>
+                    <td><input type="text" name="name"/></td>
+                </tr>
+                <tr>
+                    <td>Age:</td>
+                    <td><input type="text" name="age"/></td>
+                </tr>
+                <tr>
+                    <td>Student Number:</td>
+                    <td><input type="text" name="studID"/></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><input type="submit" value="SUBMIT"/></td>
+                </tr>
+            </table>
+        </form>
+         <ol>
+            <li><a href="LogoutServlet.do">Logout</a></li>
+        </ol>
+    </body>
+</html>
